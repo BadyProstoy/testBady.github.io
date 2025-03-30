@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+	font-family: Michroma, serif;
+	background: linear-gradient(90deg, #ad2525 0%, #942424 23%, #000 67%);
+}
+.nav-link {
+	color: rgb(247, 175, 81);
+}
+
+.navbar-nav .nav-link.active {
+	color: rgb(255, 242, 225);
+}
+
+.navbar-brand img {
+	width: 40px;
+}
+
+.navbar-toggler {
+	background-color: azure;
+}
+
+.sidebar {
+	color: rgb(255, 242, 225);
+	background: linear-gradient(270deg, #ad2525 0%, #942424 23%, #000 67%);
+}
+
+p {
+	color: rgb(255, 242, 225);
+}
+.card {
+	background: linear-gradient(270deg, #ad2525 0%, #942424 23%, #000 67%);
+	color: rgb(255, 242, 225);
+}
+
+.slide-text,
+.footer-text {
+	color: rgb(255, 242, 225);
+	margin: auto auto;
+}
+
+footer {
+	background: linear-gradient(270deg, #ad2525 0%, #942424 23%, #000 67%);
+}
+
+.media-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media (max-width: 775px) {
+	.carousel-indicators {
+		display: none;
+	}
+}
